@@ -1,15 +1,19 @@
+/**
+ * LINKEDLIST CI METTE MOLTO PIU' TEMPO RISPETTO A ARRAYLIST
+ */
+
 package it.polito.tdp.parole.model;
 
-import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
-public class Parole {
+public class ParoleLL {
 		
 	List<String> parole;
 	
-	public Parole() {
-		parole = new ArrayList<>();
+	public ParoleLL() {
+		parole = new LinkedList<>();
 	}
 	
 	public void addParola(String p) {
